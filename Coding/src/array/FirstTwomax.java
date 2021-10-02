@@ -16,6 +16,6 @@ public class FirstTwomax {
             System.out.print(arr[i]+" ");
 
         }
-        System.out.println("2nd highest no is"+arr[size-2]+arr[size-1]);
+        System.out.println("2nd highest no is" + arr[size - 2]);
     }
 }
