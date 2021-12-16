@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-public class RemoveDuplicates {
+public class
+RemoveDuplicates {
 
     public static void main(String[] args) {
 

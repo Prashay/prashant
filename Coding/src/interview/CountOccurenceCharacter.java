@@ -17,12 +17,8 @@ public static void main(String [] args){
             if (str.charAt(i) == array[j])
                 flag++;
         }
-        /*if(flag==1){
-        System.out.println("No of occurence of "+str.charAt(i)+ " : "+ counter[str.charAt(i)]);
-    }*/
-
-        if(counter[str.charAt(i)]>1){
-            System.out.print(str.charAt(i));
+        if (flag == 1) {
+            System.out.println("No of occurence of " + str.charAt(i) + " : " + counter[str.charAt(i)]);
         }
     }
 }
