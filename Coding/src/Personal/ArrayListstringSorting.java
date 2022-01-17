@@ -1,9 +1,9 @@
-package Collections;
+package Personal;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayListSorting {
+public class ArrayListstringSorting {
     public static void main(String[] args) {
         List<String> al = new ArrayList<String>();
         al.add("Apple");
@@ -13,12 +13,9 @@ public class ArrayListSorting {
 
 
         System.out.println(al);//unshorted
-
-        System.out.println("Sorting---");
+        Object[] Fruit = al.toArray();
         int size = al.size();
         String temp;
-        Object[] Fruit = al.toArray();
-
         for (int i = 0; i < size; i++) {
             for (int j = i + 1; j < size; j++) {
                 if (((String) Fruit[i]).compareTo((String) Fruit[j]) > 0) {
@@ -30,7 +27,8 @@ public class ArrayListSorting {
         }
         for (int i = 0; i < Fruit.length; i++) {
             System.out.print(Fruit[i] + " ");
-        }
-    }
 
+        }
+
+    }
 }

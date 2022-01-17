@@ -1,10 +1,8 @@
 package interview;
-import java.util.*;
 
 public class ReverseSentence{
    public static void main(String [] args){
-       Scanner sc = new Scanner(System.in);
-       System.out.println("Enter the string");
+
        String str = "my name is prashant jha";
        String output = reverseWord(str+" ");
        System.out.println("reverse of "+str+ " =="+output);

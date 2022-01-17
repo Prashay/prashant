@@ -1,6 +1,6 @@
 package HashMap;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class CountCharacterOccuren {
     public static void main(String[]args){
@@ -18,7 +18,7 @@ public class CountCharacterOccuren {
             arr[i]= str.charAt(i);
             int flag =0;
             for (int j=0;j<=i;j++){
-                if(arr[j]==str.charAt(i) && arr[i]!='"'&& arr[i]!=' ' && arr[i]!='?'){
+                if (arr[j] == str.charAt(i)) {
                     flag++;
                 }
             }
